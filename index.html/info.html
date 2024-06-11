@@ -1,0 +1,72 @@
+<DOCTYPE html>
+<html lang="en">
+ <head>
+  <title>Information and contants</title>
+  <link rel="stylesheet" href="./css style/styles.css" />
+  <style>
+    form {
+      max-width: 400px;
+      margin: 20px auto;
+      padding: 20px;
+      background-color: rgb(63, 70, 63);
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(red, green, rgb(12, 12, 12), alpha);
+    }
+    form label {
+      display: block;
+      margin-bottom: 10px;
+    }
+    form label span {
+      display: block;
+      width: 140px;
+      float: left;
+    }
+
+
+  </style>
+ </head>
+ <body>
+  <h1 style="color: darkslateblue;">information and contants</h1>
+   <nav>
+
+    <ul>
+      <li><a href="./Products.html">Products</a></li>
+      <li><a href="./fashion.html">Fashion</a></li>
+      <li><a href="./info.html">Info</a></li>
+     </ul>
+
+     <form action="Products.html" method="post">
+      <h2 style="color: rgb(8, 8, 8);"> search</h2>
+      <label for="name">
+       <span>Name</span>
+       <input id="Name" name="name" type="text" required/>
+      </label>
+      <label for="age">
+       <span>Age</span>
+       <input id="Age" name="Age" min="0" max="150" type="number" required/>
+      </label>
+      <label for="email">
+        <span>Email</span>
+        <input id="email" name="email" type="email" required/>
+       </label>
+       <label>
+       <label for="country">
+        <span>Country</span>
+        <select id="country" name="country" required>
+         <option selected value="IE">Ireland</option>
+         <option value="RSA">Repuplic of South Africa</option>
+         <option value="usa">United states of America</option>
+         <option value="Ca">Canada</option>
+        </select>
+       </label>
+        <span>Describe</span>
+        <textarea name="description"></textarea>
+       </label>
+       <button type="submit">Submit</button>
+     </form>
+
+     <a href="./projectpt2.html">Go back</a>
+   </nav>
+ </body>      
+</html>
+    
