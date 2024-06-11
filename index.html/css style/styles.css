@@ -1,0 +1,16 @@
+html {
+    padding: 1px;
+    margin: 1px;
+    border: 12px black;
+    background-color: rgb(77, 209, 209);
+    font-family: serif;
+  }  
+
+  .logo {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border: 5px solid white rgb(196, 21, 24);
+    padding: 5px;
+   }
